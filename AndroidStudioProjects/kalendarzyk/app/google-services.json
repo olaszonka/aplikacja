@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89608370503",
+    "project_id": "menstrubaza-cdbda",
+    "storage_bucket": "menstrubaza-cdbda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89608370503:android:e6dcfe190e12600c8bb462",
+        "android_client_info": {
+          "package_name": "com.example.kalendarzyk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA033WpjV8S9nAMv9D8i5fhCZfAKKDouFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

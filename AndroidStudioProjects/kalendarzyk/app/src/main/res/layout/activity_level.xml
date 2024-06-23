@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LevelData">
+
+    <EditText
+        android:id="@+id/inputMood"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="64dp"
+        android:ems="5"
+        android:hint="Humor"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:text="Wystąpiło krwawienie"
+        app:layout_constraintStart_toEndOf="@+id/buttonPickDate"
+        app:layout_constraintTop_toBottomOf="@+id/inputSecretion" />
+
+    <EditText
+        android:id="@+id/inputTemperature"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:hint="Temperatura"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputMood" />
+
+    <EditText
+        android:id="@+id/inputSecretion"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:ems="5"
+        android:hint="Śluz"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputTemperature" />
+
+
+    <!--    <EditText-->
+<!--        android:id="@+id/inputDate"-->
+<!--        android:layout_width="157dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="124dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:hint="Data parametrów"-->
+<!--        android:inputType="date"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/inputSecretion" />-->
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_above="@+id/inputMood"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="152dp"
+        android:text="Dalej..."
+        app:icon="@drawable/free"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonToFS" />
+
+    <Button
+        android:id="@+id/buttonPickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="48dp"
+        android:text="Data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSecretion" />
+
+    <Button
+        android:id="@+id/buttonToFS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:text="Wprowadź"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPickDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

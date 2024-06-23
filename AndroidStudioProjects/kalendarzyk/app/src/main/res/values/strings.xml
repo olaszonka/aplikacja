@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">kalendarzyk</string>>
+        <string name="err_msg_enter_email">Wprowadź adres email</string>
+        <string name="err_msg_enter_name">Wprowadź swoje imię</string>
+        <string name="err_msg_enter_password">Podaj hasło</string>
+        <string name="err_msg_enter_reppassword">Potwierdź hasło</string>
+        <string name="err_msg_password_mismatch">Podane hasła nie są identyczne</string>
+        <string name="err_msg_password_short">Minimalna długość znaków w haśle: 8</string>
+        <string name="err_msg_password_small">Hasło wymaga co najmniej jednej małej litery</string>
+        <string name="err_msg_password_great">Hasło wymaga co najmniej jednej dużej litery</string>
+        <string name="err_msg_password_char">Hasło wymaga co najmniej jedego znaku specjalnego</string>
+        <string name="register_success">Rejestracja przebiegła pomyślnie!</string>
+    </resources>

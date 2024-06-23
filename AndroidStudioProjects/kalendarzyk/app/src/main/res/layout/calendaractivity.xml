@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CalendarData">
+
+    <Button
+        android:id="@+id/buttonPickDate"
+        android:layout_width="163dp"
+        android:layout_height="88dp"
+        android:layout_centerInParent="true"
+        android:text="Wprowadź datę ostatniego okresu" />
+
+    <Button
+        android:id="@+id/inputCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/buttonPickDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="151dp"
+        android:text="Potwierdź" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_above="@+id/buttonPickDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="166dp"
+        android:text="Dalej..."
+        app:icon="@drawable/free" />
+
+
+</RelativeLayout>
